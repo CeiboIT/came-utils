@@ -63,16 +63,21 @@ else {
 exports.paths = [
    {
       path:  "users",
-      index: "firebase",
+      index: "came-app",
       type:  "user"
    },
    {
+      path: "discounts",
+      index: "came-app",
+      type: "discounts"
+   }
+   /*{
       path:  "messages",
       index: "firebase",
       type:  "message",
       fields: ['msg', 'name'],
       filter: function(data) { return data.name !== 'system'; }
-   }
+   }*/
 ];
 
 // Paths can also be stored in Firebase and loaded using FB_PATHS!
