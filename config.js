@@ -28,6 +28,8 @@ exports.FB_RES   = process.env.FB_RES || 'search/response';
 //if( process.env.BONSAI_URL ) {
    processBonsaiUrl(exports, "https://gtqwl19cnc:69nhlllodp@came-9522051634.us-west-2.bonsai.io");
 //}
+
+
 /*else {
    // ElasticSearch server's host URL
    exports.ES_HOST  = process.env.ES_HOST || 'localhost';
@@ -59,6 +61,8 @@ exports.FB_RES   = process.env.FB_RES || 'search/response';
  * Format each path object with the same keys described above, and store the array of paths at whatever
  * location you specified in the FB_PATHS variable. Be sure to restrict that data in your Security Rules.
  ****************************************************/
+
+//curl -X POST https://gtqwl19cnc:69nhlllodp@came-9522051634.us-west-2.bonsai.io/came
 
 exports.paths = [
    {
