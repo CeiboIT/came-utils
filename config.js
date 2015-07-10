@@ -25,10 +25,10 @@ exports.FB_RES   = process.env.FB_RES || 'search/response';
 /** ElasticSearch Settings
  *********************************************/
 
-if( process.env.BONSAI_URL ) {
-   processBonsaiUrl(exports, process.env.BONSAI_URL);
-}
-else {
+//if( process.env.BONSAI_URL ) {
+   processBonsaiUrl(exports, "https://gtqwl19cnc:69nhlllodp@came-9522051634.us-west-2.bonsai.io");
+//}
+/*else {
    // ElasticSearch server's host URL
    exports.ES_HOST  = process.env.ES_HOST || 'localhost';
 
@@ -40,7 +40,7 @@ else {
 
    // ElasticSearch password for http auth
    exports.ES_PASS  = process.env.ES_PASS || null;
-}
+}*/
 
 
 /** Paths to Monitor
@@ -63,12 +63,12 @@ else {
 exports.paths = [
    {
       path:  "users",
-      index: "came-app",
+      index: "came",
       type:  "user"
    },
    {
       path: "discounts",
-      index: "came-app",
+      index: "came",
       type: "discounts"
    }
    /*{
