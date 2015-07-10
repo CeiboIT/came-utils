@@ -67,9 +67,19 @@ exports.paths = [
       type:  "user"
    },
    {
+      path: "federations",
+      index: "came",
+      type: "federation"
+   },
+   {
+      path: "associates",
+      index: "came",
+      type: "associate"
+   },
+   {
       path: "discounts",
       index: "came",
-      type: "discounts"
+      type: "discount"
    }
    /*{
       path:  "messages",
